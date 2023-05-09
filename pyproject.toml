@@ -4,10 +4,9 @@ version = "0.1.0"
 description = "Simple app to play with FastAPI"
 authors = ["Nicolo Orlando <nicolo.orlando@gmail.com>"]
 readme = "README.md"
-packages = [{include = "fastapi_python"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 fastapi = "^0.95.1"
 uvicorn = {extras = ["standard"], version = "^0.21.1"}
 
